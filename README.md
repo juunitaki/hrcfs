@@ -1,5 +1,5 @@
 # hrcfs
-HTTP Rage Cache Filesystem
+HTTP Range Cache Filesystem
 
 ## Overview
 
@@ -55,4 +55,4 @@ this plugin clears cache after restart. hrcfs does not.
             -o cachemetadir=/var/cache/hrcfs/metainfo \
             -o cachedatadir=/var/cache/hrcfs/data
 
-Do not kill existing hrcfs process. It continues to process already open files.
+Do not kill existing hrcfs process. It continues to process already opened files.
